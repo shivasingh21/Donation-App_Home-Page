@@ -92,6 +92,24 @@ h6{
   height: 1px;
   background-color: #000000;
 }
+.footer-bar-button{
+  padding: 10px;
+  color:#000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+.row {
+  margin: 0px;
+}
+.copyright-text p {
+  margin-bottom: 0px;
+}
+.copyright-text {
+  background-color: #000000;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 1px 0 #888888;
+}
 @media (min-width:576px) {
   .header-phone-number{
     text-align: right;
