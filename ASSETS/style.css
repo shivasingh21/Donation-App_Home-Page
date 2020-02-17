@@ -55,13 +55,42 @@ figure {
 .laptop-text {
   display: none;
 }
-main{
-  margin-left: 10px;
-  margin-right: 10px;
+.welcome-content {
+  padding: 0px 25px;
 }
 .welcome-content h1{
   color: #E77634;
+  font-weight: bold;
   text-decoration-line:underline;
+}
+.main-content {
+  background-color: #EAEAEA;
+  padding: 25px 35px;
+}
+
+h6{
+  color: #0390D8;
+  font-weight: bold;
+  font-size: 40px;
+}
+.main-intro-content h6{
+  color: #0390D8;
+}
+.donor-content h6{
+  color: #904003;
+  text-decoration-line:underline;
+}
+.request-content h6{
+  color: #207B7C;
+  text-decoration-line:underline;
+}
+.content-sub-heading {
+  font-weight: bold;
+  text-shadow: 1px 0 #888888;
+}
+.content-line {
+  height: 1px;
+  background-color: #000000;
 }
 @media (min-width:576px) {
   .header-phone-number{
