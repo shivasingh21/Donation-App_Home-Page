@@ -2,7 +2,6 @@
   padding: 0px;
   margin: 0px;
 }
-
 .header-phone-number {
   background-color: #000000;
   color: #FFFFFF;
@@ -12,13 +11,16 @@
 .header-phone-number img{
   padding-right: 5px;
 }
-
+.navigation-bar {
+  margin-right:0px;
+}
 .navigation-bar-image {
   background-color: #E3E5EA;
   padding: 10px;
 }
 .navigation-bar-image img{
   height: 50px;
+  margin: 10px;
 }
 .navigation-bar-button{
   padding: 10px;
@@ -34,7 +36,23 @@
 .navigation-bar-button img{
   padding: 10px;
 }
-
+figure {
+  padding: 0px;
+  margin: 0px;
+}
+.img-responsive{
+  width:100%;
+  height:auto;
+}
+.banner-tag {
+  background-color: #000000;
+  padding: 10px;
+  color: #7DA7BA;
+  font-weight: bold;
+}
+.text-center {
+  padding: 0px;
+}
 @media (min-width:576px) {
   .header-phone-number{
     text-align: right;
@@ -48,5 +66,27 @@
   }
   .col-sm-9 {
     padding-right: 50px;
+  }
+  .banner .text-center {
+    padding: 0px;
+  }
+  .banner-tag p{
+    letter-spacing: 10px;
+    font-size: 100%;
+    padding: 1%;
+  }
+  .img-responsive{
+    width:100%;
+    height:200px;
+  }
+}
+@media (min-width:1024px) {
+  .banner-tag {
+    letter-spacing: 10px;
+    font-size: 150%;
+  }
+  .img-responsive{
+    width:100%;
+    height:400px;
   }
 }
