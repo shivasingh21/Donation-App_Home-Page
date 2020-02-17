@@ -20,9 +20,19 @@
 .navigation-bar-image img{
   height: 50px;
 }
-.navigation-bar-button {
+.navigation-bar-button{
   padding: 10px;
+  color:#000000;
+  font-weight: bold;
+  font-size: 20px;
 
+}
+.navigation-bar-button:hover{
+  color:red;
+  text-decoration: none !important;
+}
+.navigation-bar-button img{
+  padding: 10px;
 }
 
 @media (min-width:576px) {
@@ -32,5 +42,11 @@
   }
   .navigation-bar{
     background-color: #E3E5EA;
+  }
+  .navigation-bar-image img{
+    margin-left: 15%;
+  }
+  .col-sm-9 {
+    padding-right: 50px;
   }
 }
