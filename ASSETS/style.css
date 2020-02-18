@@ -56,6 +56,18 @@ h3{
 .main-intro-content h3{
   color: #0390D8;
 }
+.thumbnail {
+    position: relative;
+}
+.caption {
+    position: absolute;
+    top: 5%;
+    left:0%;
+    width: 100%;
+}
+.caption dd{
+  font-weight: bold;
+}
 .donor-content h3{
   color: #904003;
   text-decoration-line:underline;
