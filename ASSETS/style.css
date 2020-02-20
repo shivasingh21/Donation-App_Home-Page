@@ -17,6 +17,7 @@
   color:#000000;
   font-weight: bold;
   font-size: 18px;
+  text-shadow: 0.7px 0 #000000;
 }
 .navigation-bar-button:hover{
   color:red;
@@ -100,7 +101,6 @@ h3{
 .content-sub-heading {
   font-weight: bold;
   text-shadow: 1px 0 #000000;
-  padding-top: 15px;
   font-size: 18px;
   letter-spacing: 1.5px;
 }
@@ -119,15 +119,14 @@ h3{
   color:#000000;
   font-weight: bold;
   font-size: 12px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  text-shadow: 1px 0 #000000;
+
 }
 .footer-links {
   background-color: #E6E4E5;
 }
-.footer-image {
-  height:0px;
-  width: 0px;
-}
+
 .copyright-text {
   background-color: #000000;
   color: #FFFFFF;
@@ -151,6 +150,26 @@ h3{
   .banner-tag p{
     letter-spacing: 10px;
     font-size: 100%;
+  }
+  .banner-img{
+    width:100%;
+    height: 230px;
+    /* height:50%; */
+  }
+  .mobile-text {
+    display: none;
+  }
+  .tablet-text {
+    display: block;
+    letter-spacing: 0.4px;
+    font-size: 18px;
+  }
+  .content-sub-heading {
+    margin-bottom: 0.3rem;
+  }
+  .footer-image {
+    /* height:0px; */
+    width: 8%;
   }
 }
 @media (min-width:1024px) {
