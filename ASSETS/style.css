@@ -61,7 +61,7 @@
 }
 .mobile-text{
 
-  letter-spacing: 1px;
+  letter-spacing: 0.1px;
 }
 /*START OF MAIN PART OF THE WEBPAGE*/
 .main-content {
@@ -123,6 +123,10 @@ h3{
 }
 .footer-links {
   background-color: #E6E4E5;
+}
+.footer-image {
+  height:0px;
+  width: 0px;
 }
 .copyright-text {
   background-color: #000000;
