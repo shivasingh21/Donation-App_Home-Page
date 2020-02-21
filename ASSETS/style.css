@@ -38,16 +38,18 @@
   bottom: 0%;
   left: 0%;
   background-color: #000000;
-  opacity: 75%;
+  opacity: 85%;
   width:100%;
   height: 40px;
 }
 .banner-tag h2{
-  color: #4BD9EE;
+  color: #0390D8;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
-  text-shadow: 1px 0 #0290D8;
+  text-shadow: 1px 0 #0390D8;
+  opacity: 100%;
+  filter: brightness(1.75);
 }
 /*START OF WELCOME PART OF THE WEBPAGE*/
 .laptop-text {
@@ -71,7 +73,7 @@
 .main-content {
   background-color: #EAEAEA;
 }
-h3{
+.main-content h3{
   color: #0390D8;
   font-weight: bold;
   letter-spacing: 3px;
@@ -175,8 +177,15 @@ h3{
   .banner-tag {
     height:90px;
   }
+  .navigation-bar-image img{
+    height: 70px;
+  }
+  .navigation-bar-button{
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
   .banner-tag h2{
-      font-size: 55px;
+      font-size: 40px;
     }
   .tablet-text {
     display: none;
@@ -188,6 +197,15 @@ h3{
     display: block;
     letter-spacing: 0.8px;
     font-size: 18px;
+  }
+  .welcome-content h2{
+    font-size: 45px;
+  }
+  .main-content h3{
+    font-size: 38px;
+  }
+  .main-intro-content h3{
+    font-size: 40px;
   }
   .footer-image {
     /* height:0px; */
