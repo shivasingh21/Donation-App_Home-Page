@@ -16,8 +16,9 @@
 .navigation-bar-button{
   color:#000000;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   text-shadow: 0.7px 0 #000000;
+  letter-spacing: 1px;
 }
 .navigation-bar-button:hover{
   color:red;
@@ -43,11 +44,11 @@
   height: 40px;
 }
 .banner-tag h2{
-  color: #0390D8;
+  color: lightblue;
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
-  text-shadow: 1px 0 #0390D8;
+  text-shadow: 1px 0 blue;
   opacity: 100%;
   filter: brightness(1.75);
 }
@@ -79,6 +80,9 @@
   letter-spacing: 3px;
   text-shadow: 1.5px 0 #0390D8;
 }
+.main-content p{
+  margin-bottom: 0.2rem;
+}
 .main-intro-content h3{
   color: #0390D8;
 }
@@ -88,7 +92,7 @@
 .caption {
     position: absolute;
     top: 5%;
-    left:0%;
+
     width: 100%;
 }
 .caption dd{
@@ -114,10 +118,11 @@
   background-color: #676767;
 }
 .image-text {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   text-shadow: 0.7px 0 #000000;
   letter-spacing: 1px;
+  list-style: none;
 }
 /*START OF FOOTER PART OF THE WEBPAGE*/
 .footer-bar-button{
@@ -171,6 +176,9 @@
   .footer-image {
     /* height:0px; */
     width: 8%;
+  }
+  .caption {
+    right:25%
   }
 }
 @media (min-width:1024px) {
