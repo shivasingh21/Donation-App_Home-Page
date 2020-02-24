@@ -2,6 +2,19 @@
   padding: 0px;
   margin: 0px;
 }
+/* CenturyGothicRegular.ttf */
+/* @font-face {
+  font-family: "Calibri1" ;
+  src: url(CenturyGothicRegular.ttf);
+} */
+
+/* @font-face {
+ font-family: "Calibri1" ;
+ src: url(Calibri-Light.ttf);
+} */
+body{
+  font-family: 'Open Sans' ;
+}
 .header-phone-number {
   background-color: #000000;
   color: #FFFFFF;
@@ -44,13 +57,13 @@
   height: 40px;
 }
 .banner-tag h2{
-  color: lightblue;
+  color: #1B75BC;
   font-weight: bold;
   font-size: 16px;
+  text-shadow: 1px 0 #1B75BC;
   letter-spacing: 1px;
-  text-shadow: 1px 0 blue;
   opacity: 100%;
-  filter: brightness(1.75);
+
 }
 /*START OF WELCOME PART OF THE WEBPAGE*/
 .laptop-text {
@@ -178,7 +191,10 @@
     width: 8%;
   }
   .caption {
-    right:25%
+      position: absolute;
+      top: 5%;
+
+      width: 100%;
   }
 }
 @media (min-width:1024px) {
@@ -205,6 +221,7 @@
     display: block;
     letter-spacing: 0.8px;
     font-size: 18px;
+
   }
   .welcome-content h2{
     font-size: 45px;
