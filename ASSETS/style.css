@@ -2,16 +2,6 @@
   padding: 0px;
   margin: 0px;
 }
-/* CenturyGothicRegular.ttf */
-/* @font-face {
-  font-family: "Calibri1" ;
-  src: url(CenturyGothicRegular.ttf);
-} */
-
-/* @font-face {
- font-family: "Calibri1" ;
- src: url(Calibri-Light.ttf);
-} */
 body{
   font-family: 'Open Sans' ;
 }
@@ -29,8 +19,8 @@ body{
 .navigation-bar-button{
   color:#000000;
   font-weight: bold;
-  font-size: 16px;
-  text-shadow: 0.7px 0 #000000;
+  font-size: 18px;
+  /* text-shadow: 0.7px 0 #000000; */
   letter-spacing: 1px;
 }
 .navigation-bar-button:hover{
@@ -76,12 +66,8 @@ body{
   color: #E77634;
   font-weight: bold;
   text-shadow: 1px 0 #E77634;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-decoration-line:underline;
-}
-.mobile-text{
-
-  letter-spacing: 0.1px;
 }
 /*START OF MAIN PART OF THE WEBPAGE*/
 .main-content {
@@ -234,10 +220,13 @@ body{
   }
   .footer-image {
     /* height:0px; */
-    width: 6%;
+    width: 8%;
   }
   .banner-img{
     height: 330px;
     /* height:50%; */
+  }
+  .footer-bar-button{
+    font-size: 18px;
   }
 }
