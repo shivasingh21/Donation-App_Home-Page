@@ -47,10 +47,10 @@ body{
   height: 40px;
 }
 .banner-tag h2{
-  color: #1B75BC;
+  color: #67A6D9;
   font-weight: bold;
   font-size: 16px;
-  text-shadow: 1px 0 #1B75BC;
+  text-shadow: 1px 0 #67A6D9;
   letter-spacing: 1px;
   opacity: 100%;
 
@@ -62,49 +62,52 @@ body{
 .tablet-text {
   display:none;
 }
-.welcome-content h2{
+.welcome-content-heading{
   color: #E77634;
   font-weight: bold;
   text-shadow: 1px 0 #E77634;
   letter-spacing: 2px;
   text-decoration-line:underline;
+  font-size: 30px;
 }
 /*START OF MAIN PART OF THE WEBPAGE*/
 .main-content {
   background-color: #EAEAEA;
 }
-.main-content h3{
+.main-content-heading{
   color: #0390D8;
   font-weight: bold;
+  font-size: 30px;
   letter-spacing: 3px;
   text-shadow: 1.5px 0 #0390D8;
 }
 .main-content p{
   margin-bottom: 0.2rem;
 }
-.main-intro-content h3{
-  color: #0390D8;
-}
+
 .thumbnail {
     position: relative;
 }
 .caption {
     position: absolute;
     top: 5%;
-
     width: 100%;
 }
-.caption dd{
-  font-weight: bold;
-}
-.donor-content h3{
+.donor-content>p{
   color: #904003;
-  text-shadow: 1.5px 0 #904003;
   text-decoration-line:underline;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 1.5px 0 #904003;
 }
-.receiver-content h3{
+.receiver-content>p{
   color: #207B7C;
   text-decoration-line:underline;
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-shadow: 1.5px 0 #207B7C;
 }
 .content-sub-heading {
   font-weight: bold;
@@ -174,7 +177,7 @@ body{
   }
   .footer-image {
     /* height:0px; */
-    width: 8%;
+    width: 30px;
   }
   .caption {
       position: absolute;
@@ -205,22 +208,19 @@ body{
   }
   .laptop-text {
     display: block;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     font-size: 18px;
 
   }
-  .welcome-content h2{
-    font-size: 45px;
-  }
-  .main-content h3{
-    font-size: 38px;
-  }
-  .main-intro-content h3{
-    font-size: 40px;
-  }
+.welcome-content-heading{
+  font-size: 45px;
+}
+.main-content-heading{
+  font-size: 45px;
+}
   .footer-image {
     /* height:0px; */
-    width: 8%;
+    width: 40px;
   }
   .banner-img{
     height: 330px;
@@ -228,5 +228,13 @@ body{
   }
   .footer-bar-button{
     font-size: 18px;
+  }
+  .donor-content>p{
+    font-size: 37px;
+    letter-spacing: 3px;
+  }
+  .receiver-content>p{
+    font-size: 37px;
+    letter-spacing: 3px;
   }
 }
