@@ -20,7 +20,6 @@ body {
   color:#000000;
   font-weight: bold;
   font-size: 18px;
-  /* text-shadow: 0.7px 0 #000000; */
   letter-spacing: 1px;
 }
 .navigation-bar-button:hover {
@@ -40,7 +39,7 @@ body {
   bottom: 0%;
   left: 0%;
   background-color: #000000;
-  opacity: 85%;
+  opacity: 70%;
   width:100%;
   height: 40px;
 }
@@ -50,7 +49,6 @@ body {
   font-size: 16px;
   text-shadow: 1px 0 #67A6D9;
   letter-spacing: 1px;
-  opacity: 100%;
 }
 /*START OF WELCOME PART OF THE WEBPAGE*/
 .laptop-text {
@@ -81,7 +79,6 @@ body {
 .main-content p {
   margin-bottom: 0.2rem;
 }
-
 .thumbnail {
     position: relative;
 }
@@ -178,8 +175,8 @@ body {
   .footer-image {
     width: 30px;
   }
-
 }
+
 @media (min-width:1024px) {
   .navigation-bar-image img {
     height: 70px;
