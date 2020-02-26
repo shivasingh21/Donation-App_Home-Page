@@ -2,7 +2,7 @@
   padding: 0px;
   margin: 0px;
 }
-body{
+body {
   font-family: 'Open Sans' ;
 }
 .header-phone-number {
@@ -13,31 +13,29 @@ body{
 .navigation-bar-image {
   background-color: #E5E5E5;
 }
-.navigation-bar-image img{
+.navigation-bar-image img {
   height: 50px;
 }
-.navigation-bar-button{
+.navigation-bar-button {
   color:#000000;
   font-weight: bold;
   font-size: 18px;
   /* text-shadow: 0.7px 0 #000000; */
   letter-spacing: 1px;
 }
-.navigation-bar-button:hover{
+.navigation-bar-button:hover {
   color:red;
   text-decoration: none ;
 }
 /*START OF BANNER PART OF THE WEBPAGE*/
-.banner{
+.banner {
   position: relative;
-  /* width:100%; */
 }
-.banner-img{
+.banner-img {
   width:100%;
-  height: 130px;
-  /* height:50%; */
+  height: auto;
 }
-.banner-tag{
+.banner-tag {
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -46,14 +44,13 @@ body{
   width:100%;
   height: 40px;
 }
-.banner-tag h2{
+.banner-tag h2 {
   color: #67A6D9;
   font-weight: bold;
   font-size: 16px;
   text-shadow: 1px 0 #67A6D9;
   letter-spacing: 1px;
   opacity: 100%;
-
 }
 /*START OF WELCOME PART OF THE WEBPAGE*/
 .laptop-text {
@@ -62,7 +59,7 @@ body{
 .tablet-text {
   display:none;
 }
-.welcome-content-heading{
+.welcome-content-heading {
   color: #E77634;
   font-weight: bold;
   text-shadow: 1px 0 #E77634;
@@ -74,14 +71,14 @@ body{
 .main-content {
   background-color: #EAEAEA;
 }
-.main-content-heading{
+.main-content-heading {
   color: #0390D8;
   font-weight: bold;
   font-size: 30px;
   letter-spacing: 3px;
   text-shadow: 1.5px 0 #0390D8;
 }
-.main-content p{
+.main-content p {
   margin-bottom: 0.2rem;
 }
 
@@ -93,7 +90,7 @@ body{
     top: 5%;
     width: 100%;
 }
-.donor-content>p{
+.donor-content>p {
   color: #904003;
   text-decoration-line:underline;
   font-size: 27px;
@@ -101,7 +98,7 @@ body{
   letter-spacing: 1px;
   text-shadow: 1.5px 0 #904003;
 }
-.receiver-content>p{
+.receiver-content>p {
   color: #207B7C;
   text-decoration-line:underline;
   font-size: 27px;
@@ -119,7 +116,7 @@ body{
   height: 1px;
   background-color: #676767;
 }
-.image-text {
+.caption li {
   font-size: 12px;
   font-weight: bold;
   text-shadow: 0.7px 0 #000000;
@@ -127,18 +124,19 @@ body{
   list-style: none;
 }
 /*START OF FOOTER PART OF THE WEBPAGE*/
-.footer-bar-button{
+.footer-bar-button {
   color:#000000;
   font-weight: bold;
   font-size: 12px;
   letter-spacing: 2px;
   text-shadow: 1px 0 #000000;
-
 }
 .footer-links {
   background-color: #E6E4E5;
 }
-
+.footer-image {
+  width: 28px;
+}
 .copyright-text {
   background-color: #000000;
   color: #FFFFFF;
@@ -152,18 +150,15 @@ body{
   .header-phone-number{
     text-align: right;
   }
-  .navigation-bar{
+  .navigation-bar {
     background-color: #E3E5EA;
   }
   .banner-tag {
     height:60px;
   }
-  .banner-tag h2{
+  .banner-tag h2 {
     font-size: 25px;
     }
-  .banner-img{
-    height: 230px;
-  }
   .mobile-text {
     display: none;
   }
@@ -175,31 +170,30 @@ body{
   .content-sub-heading {
     margin-bottom: 0.3rem;
   }
-  .footer-image {
-    /* height:0px; */
-    width: 30px;
-  }
   .caption {
       position: absolute;
       top: 5%;
-
       width: 100%;
   }
+  .footer-image {
+    width: 30px;
+  }
+
 }
 @media (min-width:1024px) {
-  .banner-tag {
-    height:90px;
-  }
-  .navigation-bar-image img{
+  .navigation-bar-image img {
     height: 70px;
   }
-  .navigation-bar-button{
+  .navigation-bar-button {
     font-size: 25px;
     letter-spacing: 2px;
   }
-  .banner-tag h2{
-      font-size: 40px;
-    }
+  .banner-tag {
+    height:90px;
+  }
+  .banner-tag h2 {
+    font-size: 40px;
+  }
   .tablet-text {
     display: none;
   }
@@ -210,31 +204,25 @@ body{
     display: block;
     letter-spacing: 1px;
     font-size: 18px;
-
   }
-.welcome-content-heading{
-  font-size: 45px;
-}
-.main-content-heading{
-  font-size: 45px;
-}
-  .footer-image {
-    /* height:0px; */
-    width: 40px;
+  .welcome-content-heading {
+   font-size: 45px;
   }
-  .banner-img{
-    height: 330px;
-    /* height:50%; */
+  .main-content-heading{
+   font-size: 45px;
   }
-  .footer-bar-button{
+  .footer-bar-button {
     font-size: 18px;
   }
-  .donor-content>p{
+  .donor-content>p {
     font-size: 37px;
     letter-spacing: 3px;
   }
-  .receiver-content>p{
+  .receiver-content>p {
     font-size: 37px;
     letter-spacing: 3px;
+  }
+  .footer-image {
+    width: 40px;
   }
 }
