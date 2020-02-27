@@ -27,11 +27,13 @@ body {
   text-decoration: none ;
 }
 /*START OF BANNER PART OF THE WEBPAGE*/
-.banner {
+/* .banner {
   position: relative;
+  width:100%;
 }
 .banner-img {
-  width:100%;
+object-fit: cover;
+  max-width:100%;
   height: auto;
 }
 .banner-tag {
@@ -42,6 +44,37 @@ body {
   opacity: 70%;
   width:100%;
   height: 40px;
+}
+.banner-tag h2 {
+  color: #67A6D9;
+  font-weight: bold;
+  font-size: 16px;
+  text-shadow: 1px 0 #67A6D9;
+  letter-spacing: 1px;
+} */
+/* .banner-img{
+  height:100px;
+  overflow: hidden;
+background-size: cover;
+background-position: center;
+background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgetbootstrap.com%2Fdocs%2F4.4%2Fcontent%2Fimages%2F&psig=AOvVaw0lajzg2S_Ps0jufUl22dn4&ust=1582866811929000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICPy8P88OcCFQAAAAAdAAAAABAD');
+} */
+.banner {
+  color: white;
+  background: url('images/BANNER_PHOTO.jpg') top left/cover no-repeat;
+  height: 150px;
+  position: relative;
+}
+.banner-tag {
+  bottom:0%;
+  position: absolute;
+  background-color: #000000;
+  opacity: 75%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .banner-tag h2 {
   color: #67A6D9;
@@ -150,11 +183,11 @@ body {
   .navigation-bar {
     background-color: #E3E5EA;
   }
-  .banner-tag {
-    height:60px;
+  .banner {
+    height:250px;
   }
   .banner-tag h2 {
-    font-size: 25px;
+    font-size: 35px;
     }
   .mobile-text {
     display: none;
@@ -176,7 +209,6 @@ body {
     width: 30px;
   }
 }
-
 @media (min-width:1024px) {
   .navigation-bar-image img {
     height: 70px;
@@ -185,12 +217,12 @@ body {
     font-size: 25px;
     letter-spacing: 2px;
   }
-  .banner-tag {
-    height:90px;
+  .banner {
+    height:350px;
   }
   .banner-tag h2 {
-    font-size: 40px;
-  }
+    font-size: 45px;
+    }
   .tablet-text {
     display: none;
   }
