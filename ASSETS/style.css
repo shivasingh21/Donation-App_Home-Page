@@ -4,6 +4,12 @@
 }
 body {
   font-family: 'Open Sans' ;
+  background-color: #F7F7F7;
+}
+.my-container {
+  max-width: 1140px;
+margin-left: auto;
+margin-right: auto;
 }
 .header-phone-number {
   background-color: #000000;
@@ -27,38 +33,6 @@ body {
   text-decoration: none ;
 }
 /*START OF BANNER PART OF THE WEBPAGE*/
-/* .banner {
-  position: relative;
-  width:100%;
-}
-.banner-img {
-object-fit: cover;
-  max-width:100%;
-  height: auto;
-}
-.banner-tag {
-  position: absolute;
-  bottom: 0%;
-  left: 0%;
-  background-color: #000000;
-  opacity: 70%;
-  width:100%;
-  height: 40px;
-}
-.banner-tag h2 {
-  color: #67A6D9;
-  font-weight: bold;
-  font-size: 16px;
-  text-shadow: 1px 0 #67A6D9;
-  letter-spacing: 1px;
-} */
-/* .banner-img{
-  height:100px;
-  overflow: hidden;
-background-size: cover;
-background-position: center;
-background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgetbootstrap.com%2Fdocs%2F4.4%2Fcontent%2Fimages%2F&psig=AOvVaw0lajzg2S_Ps0jufUl22dn4&ust=1582866811929000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICPy8P88OcCFQAAAAAdAAAAABAD');
-} */
 .banner {
   color: white;
   background: url('images/BANNER_PHOTO.jpg') top left/cover no-repeat;
@@ -71,7 +45,6 @@ background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgetboot
   background-color: #000000;
   opacity: 75%;
   width: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,6 +62,9 @@ background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgetboot
 }
 .tablet-text {
   display:none;
+}
+.welcome-content {
+  background-color: #FFFFFF;
 }
 .welcome-content-heading {
   color: #E77634;
