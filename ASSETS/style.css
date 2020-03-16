@@ -4,12 +4,12 @@
 }
 body {
   font-family: 'Open Sans' ;
-  background-color: #F7F7F7;
+
 }
 .my-container {
-  max-width: 1140px;
-margin-left: auto;
-margin-right: auto;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-phone-number {
   background-color: #000000;
@@ -55,6 +55,7 @@ margin-right: auto;
   font-size: 16px;
   text-shadow: 1px 0 #67A6D9;
   letter-spacing: 1px;
+  margin-bottom: 0px;
 }
 /*START OF WELCOME PART OF THE WEBPAGE*/
 .laptop-text {
@@ -120,7 +121,7 @@ margin-right: auto;
 }
 .content-line { /*USED TO DRAW LINE BETWEEN DONOR AND RECEIVER CONTENT*/
   height: 1px;
-  background-color: #676767;
+  background-color: #000000;
 }
 .caption li {
   font-size: 12px;
@@ -168,7 +169,7 @@ margin-right: auto;
   .mobile-text {
     display: none;
   }
-  .tablet-text {
+  .description {
     display: block;
     letter-spacing: 0.4px;
     font-size: 18px;
@@ -205,7 +206,7 @@ margin-right: auto;
   .mobile-text {
     display: none;
   }
-  .laptop-text {
+  .description {
     display: block;
     letter-spacing: 1px;
     font-size: 18px;
@@ -229,5 +230,8 @@ margin-right: auto;
   }
   .footer-image {
     width: 40px;
+  }
+  .copyright-text {
+    font-size: 20px;
   }
 }
